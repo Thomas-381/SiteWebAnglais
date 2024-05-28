@@ -10,6 +10,55 @@ img {
     object-fit: cover;
 }
 
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+header img {
+    background-color: #333;
+    width: 0%;
+    height: 200px;
+    object-fit: cover;
+}
+
+nav {
+    display: flex;
+    background-color: #333;
+    justify-content: space-between;
+    height: 5vh;
+}
+
+nav ul {
+    display: flex;
+    background-color: #333;
+    gap: 30px;
+    margin-right: 30px;
+    padding: 0;
+    height: 100%;
+}
+
+nav ul li {
+    list-style: none;
+    background-color: #333;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 15px 20px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgb(101, 32, 165);
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
