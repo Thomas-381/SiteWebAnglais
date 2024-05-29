@@ -105,3 +105,21 @@ section {
     margin-bottom: 10px;
 }
 
+.infos-product {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.infos-product a {
+    text-decoration: none;
+    padding: 15px 20px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.infos-product a:hover {
+    background-color: rgb(101, 32, 165);
+}
