@@ -5,6 +5,10 @@ body {
 }
 
 /* header */
+nav > img {
+    width: 65px;
+
+}
 
 header {
     background-color: #333;
@@ -93,7 +97,7 @@ section {
 }
 
 .product {
-    overflow: hidden; 
+    overflow: hidden;
     margin: 10px;
     padding: 10px;
     border: 1px solid #ddd;
@@ -118,9 +122,9 @@ section {
 
 .image-container > img {
     max-height: 100%;
-    max-width: 50%; 
-    height: 100%; 
-    object-fit: contain; 
+    max-width: 50%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .product > img:hover {
@@ -142,14 +146,14 @@ section {
 #how-to p {
     width: 50%;
 }
-<<<<<<< HEAD
+/*HEAD*/
+
 #content > p{
     max-width: 100ch;
 }
 #content{
     padding-right: 50px;
 }
-=======
 
 
 /*footer page*/
@@ -226,4 +230,3 @@ section {
     color: #777;
 }
 
->>>>>>> 49e12f8 (Add Footer)
