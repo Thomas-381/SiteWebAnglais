@@ -5,7 +5,7 @@ body {
 }
 
 /* header */
-nav > img {
+nav img {
     width: 65px;
 
 }
@@ -127,7 +127,7 @@ section {
     object-fit: contain;
 }
 
-.product > img:hover {
+.product img:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
 }
@@ -155,6 +155,42 @@ section {
     padding-right: 50px;
 }
 
+#newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#newsletter h2 {
+    font-style: italic;
+}
+
+#newsletter input {
+    height: 2em;
+    border-radius: 5px;
+    width: 20em;
+    font-size: 1em;
+}
+
+#newsletter a {
+    text-decoration: none;
+    padding: 15px 20px;
+    background-color: rgb(101, 32, 165);
+    border-radius: 10px;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+#newsletter a:hover {
+    background-color: rgb(140, 117, 161);
+}
 
 /*footer page*/
 
